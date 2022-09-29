@@ -1,3 +1,5 @@
+package libro;
+
 // Amplía el programa anterior para que diga la nota del boletín 
 // (insuficiente, suficiente, bien, notable o sobresaliente).
 

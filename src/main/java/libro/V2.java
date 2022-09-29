@@ -1,3 +1,4 @@
+package libro;
 import java.util.Scanner;
 
 public class V2 {

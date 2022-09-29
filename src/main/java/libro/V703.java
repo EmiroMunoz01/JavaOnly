@@ -1,3 +1,5 @@
+package libro;
+
 // Define un array de 10 caracteres con 
 // nombre simbolo y asigna valores a los
 // elementos según la tabla que se muestra 

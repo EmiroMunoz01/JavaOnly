@@ -1,3 +1,5 @@
+package libro;
+
 // Realiza un programa que resuelva una ecuación 
 // de segundo grado (del tipo ax2 + bx + c = 0).
 import java.util.Scanner;

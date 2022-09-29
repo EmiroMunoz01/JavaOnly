@@ -1,3 +1,5 @@
+package libro;
+
 import java.util.Scanner;
 //importamos esta libreria para hacer uso del Scanner
 public class V706 {

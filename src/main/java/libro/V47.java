@@ -1,3 +1,5 @@
+package libro;
+
 // Realiza un programa que calcule la media de tres notas.
 
 import java.util.Scanner;
