@@ -22,6 +22,11 @@ public class Empleado {
         this.exitDate = calendario.getTime();
     }
 
+    public Empleado(String name) {
+        //Aqui estamos usando los parametros del constructor de arriba
+        this(name, 30000,2000,01,01);
+    }
+
 
     public String getName() {
 

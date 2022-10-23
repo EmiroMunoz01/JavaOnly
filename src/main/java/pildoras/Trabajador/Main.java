@@ -9,7 +9,14 @@ public class Main {
 
         Empleado empleado3 = new Empleado("Carlos", 500, 2020, 8, 15);
 
+        Empleado empleado4 = new Empleado("Jose");
+
+
+
         empleado1.upSalary(10);
+
         System.out.println(empleado1.getSalary() + " " + empleado1.getExitDate());
+
+        System.out.println(empleado4);
     }
 }
