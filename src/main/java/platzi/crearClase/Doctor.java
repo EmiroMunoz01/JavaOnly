@@ -8,14 +8,13 @@ public class Doctor {
 
     // Crearemos los comportamientos
 
-    public Doctor(String name, String speciality) {
+    public Doctor(String name) {
         id++;
         this.name = name;
-        this.speciality = speciality;
-
     }
 
     public Doctor() {
+        id++;
     }
 
     public void showName() {
