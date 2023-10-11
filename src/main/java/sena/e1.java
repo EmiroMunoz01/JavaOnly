@@ -6,7 +6,6 @@ public class e1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        double valorradio;
         double valorarea;
         double valorperimetro;
         double valorvolumen;
@@ -26,6 +25,14 @@ public class e1 {
                             "Tienes un error, la figura no puede tener menos de 3 lados, vuelve a intentarlo.");
                 } else {
                     System.out.println("Ingresa las dimensiones de tu figura: ");
+
+                    double[] medidas = new double[lados];
+                    for (int i = 1; i <= lados; i++) {
+                        System.out.println("Ingrese el valor del lado" + i);
+                        double medida = entrada.nextDouble();
+
+                    }
+
                 }
             }
         } else if (base == 2) {
@@ -48,10 +55,17 @@ public class e1 {
 
             } else if (plano == 2) {
                 System.out.println("Su figura es en 3d");
-                System.out.println("Su figura es en 3d");
                 System.out.println("========================");
-                System.out.println("Con este software calcularemos el area y perimetro del circulo");
+                System.out.println("Con este software calcularemos el volumen y area de una  esfera");
                 System.out.println("========================");
+                System.out.println("Ingrese el valor del radio del circulo");
+                int radio = entrada.nextInt();
+
+                valorarea = Math.pow(radio, 2) * 3.1416 * 4;
+                valorvolumen = Math.pow(radio, 3) * 3.1416 * 4 / 3;
+
+                System.out.println("El area de la esfera es de: " + valorarea);
+                System.out.println("El volumen de la esfera es de: " + valorvolumen);
             }
 
         }
