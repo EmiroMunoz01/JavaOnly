@@ -1,6 +1,7 @@
 package pildoras.p5_herencia_ii;
 
 public class Empleado {
+
     private final String name;
     private double salary;
 

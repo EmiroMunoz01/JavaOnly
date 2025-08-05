@@ -11,8 +11,6 @@ public class Main {
         lapiz1.afilar(20);
         lapiz1.afilar(50);
         lapiz1.afilar(20);
-        
-        
-        
+
     }
 }

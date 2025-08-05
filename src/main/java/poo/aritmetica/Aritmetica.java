@@ -1,6 +1,7 @@
 package poo.aritmetica;
 
 public class Aritmetica {
+
     int a;
     int b;
 
@@ -9,17 +10,10 @@ public class Aritmetica {
         System.out.println("Resultado = " + resultado);
     }
 
-    // esta es otra forma de declarar la suma
-    public int sumarConRetorno() {
-        return a + b;
-    }
 
     // sumaremos con argumentos
-
-    public int sumarConArgumentos(int arg1, int arg2) {
-        a = arg1;
-        b = arg2;
-        return a + b;
+    public int sumarConArgumentos(int valorA, int valorB) {
+        return valorA + valorB;
     }
 
 }
